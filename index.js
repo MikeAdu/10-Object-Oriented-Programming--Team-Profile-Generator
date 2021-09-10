@@ -3,10 +3,10 @@ const fs = require('fs')
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
-const generateTeamWebPage = require("./src/generatehtml");
+// const generateTeamWebPage = require("./src/generateHtml");
 const { listenerCount } = require('events');
 const Choice = require('inquirer/lib/objects/choice');
-const generatehtml = require('./src/generatehtml');
+const generateHtml = require('./src/generateHtml');
 
 const employeeArray = []
 const managerInfo = [
